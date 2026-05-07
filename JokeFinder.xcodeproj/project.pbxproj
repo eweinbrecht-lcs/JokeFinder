@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA3275732FACEFC8007B1CDE /* JokeFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3275722FACEFC8007B1CDE /* JokeFinderApp.swift */; };
+		CA3275752FACEFC8007B1CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3275742FACEFC8007B1CDE /* Assets.xcassets */; };
+		CA3275782FACEFC8007B1CDE /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3275772FACEFC8007B1CDE /* House.swift */; };
+		CA32757B2FACEFC8007B1CDE /* HouseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA32757A2FACEFC8007B1CDE /* HouseListViewModel.swift */; };
+		CA32757E2FACEFC8007B1CDE /* HousesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA32757D2FACEFC8007B1CDE /* HousesListView.swift */; };
+		CA3275802FACEFC8007B1CDE /* HouseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA32757F2FACEFC8007B1CDE /* HouseItemView.swift */; };
+		CA3275822FACEFC8007B1CDE /* RELEASE.md in Resources */ = {isa = PBXBuildFile; fileRef = CA3275812FACEFC8007B1CDE /* RELEASE.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA32756F2FACEFC8007B1CDE /* JokeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JokeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3275722FACEFC8007B1CDE /* JokeFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFinderApp.swift; sourceTree = "<group>"; };
+		CA3275742FACEFC8007B1CDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA3275772FACEFC8007B1CDE /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		CA32757A2FACEFC8007B1CDE /* HouseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListViewModel.swift; sourceTree = "<group>"; };
+		CA32757D2FACEFC8007B1CDE /* HousesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesListView.swift; sourceTree = "<group>"; };
+		CA32757F2FACEFC8007B1CDE /* HouseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseItemView.swift; sourceTree = "<group>"; };
+		CA3275812FACEFC8007B1CDE /* RELEASE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RELEASE.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA32756C2FACEFC8007B1CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA3275662FACEFC8007B1CDE = {
+			isa = PBXGroup;
+			children = (
+				CA3275712FACEFC8007B1CDE /* JokeFinder */,
+				CA3275702FACEFC8007B1CDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA3275702FACEFC8007B1CDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA32756F2FACEFC8007B1CDE /* JokeFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA3275712FACEFC8007B1CDE /* JokeFinder */ = {
+			isa = PBXGroup;
+			children = (
+				CA3275722FACEFC8007B1CDE /* JokeFinderApp.swift */,
+				CA3275742FACEFC8007B1CDE /* Assets.xcassets */,
+				CA3275812FACEFC8007B1CDE /* RELEASE.md */,
+				CA3275762FACEFC8007B1CDE /* Model */,
+				CA3275792FACEFC8007B1CDE /* ViewModels */,
+				CA32757C2FACEFC8007B1CDE /* Views */,
+			);
+			path = JokeFinder;
+			sourceTree = "<group>";
+		};
+		CA3275762FACEFC8007B1CDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA3275772FACEFC8007B1CDE /* House.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA3275792FACEFC8007B1CDE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CA32757A2FACEFC8007B1CDE /* HouseListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CA32757C2FACEFC8007B1CDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA32757D2FACEFC8007B1CDE /* HousesListView.swift */,
+				CA32757F2FACEFC8007B1CDE /* HouseItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA32756E2FACEFC8007B1CDE /* JokeFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3275832FACEFC8007B1CDE /* Build configuration list for PBXNativeTarget "JokeFinder" */;
+			buildPhases = (
+				CA32756B2FACEFC8007B1CDE /* Sources */,
+				CA32756C2FACEFC8007B1CDE /* Frameworks */,
+				CA32756D2FACEFC8007B1CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JokeFinder;
+			packageProductDependencies = (
+			);
+			productName = JokeFinder;
+			productReference = CA32756F2FACEFC8007B1CDE /* JokeFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA3275672FACEFC8007B1CDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					CA32756E2FACEFC8007B1CDE = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CA32756A2FACEFC8007B1CDE /* Build configuration list for PBXProject "JokeFinder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA3275662FACEFC8007B1CDE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CA3275702FACEFC8007B1CDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA32756E2FACEFC8007B1CDE /* JokeFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA32756D2FACEFC8007B1CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3275822FACEFC8007B1CDE /* RELEASE.md in Resources */,
+				CA3275752FACEFC8007B1CDE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA32756B2FACEFC8007B1CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3275802FACEFC8007B1CDE /* HouseItemView.swift in Sources */,
+				CA3275782FACEFC8007B1CDE /* House.swift in Sources */,
+				CA32757E2FACEFC8007B1CDE /* HousesListView.swift in Sources */,
+				CA32757B2FACEFC8007B1CDE /* HouseListViewModel.swift in Sources */,
+				CA3275732FACEFC8007B1CDE /* JokeFinderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA3275682FACEFC8007B1CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		CA3275692FACEFC8007B1CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		CA3275842FACEFC8007B1CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4UG443984D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.on.lcs.JokeFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA3275852FACEFC8007B1CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4UG443984D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.on.lcs.JokeFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA32756A2FACEFC8007B1CDE /* Build configuration list for PBXProject "JokeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3275682FACEFC8007B1CDE /* Debug */,
+				CA3275692FACEFC8007B1CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3275832FACEFC8007B1CDE /* Build configuration list for PBXNativeTarget "JokeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3275842FACEFC8007B1CDE /* Debug */,
+				CA3275852FACEFC8007B1CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA3275672FACEFC8007B1CDE /* Project object */;
+}
