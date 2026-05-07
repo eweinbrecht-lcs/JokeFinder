@@ -7,30 +7,26 @@
 
 import Foundation
 
-// VIEW MODEL
+import Foundation
+ 
 @Observable
-class HouseListViewModel {
+class JokeViewModel {
     
     // MARK: Stored properties
-    // Stored properties must be provided with a value by providing an argument when creating an instance of this class, or, be initialized with a default value
     
-    // The list of houses
-    // This list can be read from outside the view model, but not mutated (changed) outside the view model
-    private(set) var housesList: [House]
+    // Whatever joke has most recently been downloaded
+    // from the endpoint
+    var currentJoke: Joke?
     
-    // MARK: Computed properties
-    // Computed properties calculate or derive a value using stored properties
-
-    // MARK: Initializers
-    // Initializers get an instance of a class ready to be used
-
-    // This initializer creates a list of houses based on the provided argument
-    // If no argument is provided, the example house list is used instead
-    init(housesList: [House] = exampleHouseList) {
-        self.housesList = housesList
+    // MARK: Initializer(s)
+    init(currentJoke: Joke? = nil) {
+        
+        // Take whatever joke was provided when an instance of
+        // this view model is created, and make it the current joke.
+        //
+        // Otherwise, the default value for the current joke
+        // will be a nil.
+        self.currentJoke = currentJoke
     }
     
-    // MARK: Functions
-    // Functions take action using information provided through parameters
-
 }

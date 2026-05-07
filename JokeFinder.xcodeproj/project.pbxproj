@@ -14,6 +14,7 @@
 		CA32757E2FACEFC8007B1CDE /* HousesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA32757D2FACEFC8007B1CDE /* HousesListView.swift */; };
 		CA3275802FACEFC8007B1CDE /* HouseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA32757F2FACEFC8007B1CDE /* HouseItemView.swift */; };
 		CA3275822FACEFC8007B1CDE /* RELEASE.md in Resources */ = {isa = PBXBuildFile; fileRef = CA3275812FACEFC8007B1CDE /* RELEASE.md */; };
+		CA3275872FACF067007B1CDE /* Joker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3275862FACF067007B1CDE /* Joker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		CA32757D2FACEFC8007B1CDE /* HousesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesListView.swift; sourceTree = "<group>"; };
 		CA32757F2FACEFC8007B1CDE /* HouseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseItemView.swift; sourceTree = "<group>"; };
 		CA3275812FACEFC8007B1CDE /* RELEASE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RELEASE.md; sourceTree = "<group>"; };
+		CA3275862FACF067007B1CDE /* Joker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				CA32757D2FACEFC8007B1CDE /* HousesListView.swift */,
 				CA32757F2FACEFC8007B1CDE /* HouseItemView.swift */,
+				CA3275862FACF067007B1CDE /* Joker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA3275802FACEFC8007B1CDE /* HouseItemView.swift in Sources */,
+				CA3275872FACF067007B1CDE /* Joker.swift in Sources */,
 				CA3275782FACEFC8007B1CDE /* House.swift in Sources */,
 				CA32757E2FACEFC8007B1CDE /* HousesListView.swift in Sources */,
 				CA32757B2FACEFC8007B1CDE /* HouseListViewModel.swift in Sources */,
